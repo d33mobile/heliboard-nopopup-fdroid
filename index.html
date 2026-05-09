@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>HeliBoard nopopup F-Droid Repo</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2em auto; padding: 0 1em; line-height: 1.5; }
+    code { background: #f0f0f0; padding: 0.1em 0.3em; border-radius: 3px; }
+    pre { background: #f0f0f0; padding: 1em; border-radius: 4px; overflow-x: auto; }
+  </style>
+</head>
+<body>
+<h1>HeliBoard nopopup &mdash; F-Droid repo</h1>
+
+<p>Personal fork of <a href="https://github.com/Helium314/HeliBoard">HeliBoard</a>
+that strips the system spell-check suggestions popup so it only offers
+&ldquo;Add to dictionary&rdquo; / &ldquo;Delete&rdquo; instead of a long
+list of correction candidates.</p>
+
+<p>Source: <a href="https://github.com/d33mobile/HeliBoard/tree/nopopup">github.com/d33mobile/HeliBoard (branch: nopopup)</a></p>
+
+<h2>Add this repo to F-Droid</h2>
+<ol>
+  <li>Install F-Droid client from <a href="https://f-droid.org/">f-droid.org</a> if you don't have it yet.</li>
+  <li>In F-Droid: Settings &rarr; Repositories &rarr; <strong>+</strong> button.</li>
+  <li>Paste the URL with fingerprint shown below (long-press to copy).</li>
+  <li>Update repos, then install &ldquo;HeliBoard nopopup&rdquo;.</li>
+</ol>
+
+<h3>Repo URL with fingerprint</h3>
+<p>Use this combined URL in F-Droid &mdash; it includes the SHA-256 fingerprint
+of the repo signing key so the client can verify subsequent updates:</p>
+<pre id="repo-url">https://d33mobile.github.io/heliboard-nopopup-fdroid/repo?fingerprint=525e516e3ae7763a588950e9692161029de2e373a9151455ff6f9c17179d15a7</pre>
+
+<p>Or use the bare URL (less secure: skips fingerprint verification on first add):</p>
+<pre>https://d33mobile.github.io/heliboard-nopopup-fdroid/repo</pre>
+
+<h2>Notes</h2>
+<ul>
+  <li>The fork's <code>applicationId</code> is <code>helium314.keyboard.nopopup</code>,
+      so it installs alongside upstream HeliBoard rather than replacing it.</li>
+  <li>After install, switch your IME to &ldquo;HeliBoard nopopup&rdquo; in
+      Android Settings &rarr; System &rarr; Languages &amp; input &rarr; On-screen keyboard.</li>
+  <li>Also set the spell checker: Android Settings &rarr; Languages &amp; input
+      &rarr; Spell checker &rarr; pick &ldquo;HeliBoard nopopup Spell Checker&rdquo;.</li>
+</ul>
+
+</body>
+</html>
